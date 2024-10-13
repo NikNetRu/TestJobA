@@ -1,7 +1,7 @@
 <?php
 
-//$arrSingleTeg - ������ ����� ������� ����� ���� ����������
-
+// входные данные для скрипта HTML код, проверяет все ли теги закрыты.
+//$arrSingleTeg - список тегов "одиночек" которые могут быть незакрытыми
 function tegValidator($arrayTegs) {
 
 	$arrSingleTeg = array ('img','input', 'link');
